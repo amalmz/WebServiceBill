@@ -1,0 +1,18 @@
+ <!--<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:jaxws="http://cxf.apache.org/jaxws"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd"> -->
+    <!-- Define your bean configurations here -->
+    <!-- Define the endpoint for your service implementation -->
+   <!--  <jaxws:endpoint id="yourServiceEndpoint" implementor="com.example.webapp.service.Imp.CustomerServiceImpl"
+                    address="/myService">
+        <jaxws:properties>
+            <entry key="javax.xml.ws.wsdl.service" value="CustomerService"/>
+            <entry key="javax.xml.ws.wsdl.port" value="port"/>
+            <entry key="javax.xml.ws.wsdl.interface" value="com.example.webapp.service.CustomerService"/>
+            <entry key="org.apache.cxf.wsdl.service.factory" value="org.apache.cxf.jaxws.support.JaxWsServiceFactoryBean"/>
+        </jaxws:properties>
+    </jaxws:endpoint>
+</beans>  -->
